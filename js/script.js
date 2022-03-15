@@ -56,7 +56,7 @@ const showCountry = data => {
         <p>Capital : ${newData.capital}</p>
         <p>Region : ${newData.region}</p>
         <p>Subregion : ${newData.subregion}</p>
-        <p>Subregion : ${newData.population}</p>
+        <p>Population : ${newData.population}</p>
      
         <p>Currencies : ${countryName.name}</p>
         <p>Languages : ${JSON.stringify(Object.keys(newData.languages).map(key => newData.languages[key]))}</p>
